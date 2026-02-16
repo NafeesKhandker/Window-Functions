@@ -1,0 +1,31 @@
+---
+title: "Assignment 3B"
+author: "Khandker Qaiduzzaman"
+format: html
+editor: visual
+---
+
+# Objective
+
+Use window functions (in SQL or dplyr) to calculate the year-to-date average and the six-day moving averages for each item.
+
+# Approach
+
+### Dataset description
+
+For this analysis, I have stock prices for Tesla, Amazon, Apple, and Microsoft. These stock receive significant attention because of its high volatility, rapid growth history, and leadership in technology. I selected the these Stock Price Historical Dataset (Jan 1, 2022– Feb 12, 2026) from Kaggle because it satisfies all the assignment requirements and provides meaningful time-series financial data suitable for window function analysis. Here are the column description for this dataset:
+
+-   Name: Company name / ticker symbol
+-   Date: Trading date
+-   Close: Closing price for the date
+
+### Anticipated Challenges
+
+The main anticipated challenges include data cleaning, handling non-trading days, correct year-based partitioning for YTD calculations, defining proper window frames for six-day moving averages. Additionally, volatility and performance considerations may impact analysis accuracy and efficiency.
+
+The dataset can be viewed here: <https://raw.githubusercontent.com/NafeesKhandker/Window-Functions/refs/heads/main/Data_TSLA_AAPL_AMZN_MSFT.csv>
+
+
+### References:
+
+1.  OpenAI. (2026, February 12). ChatGPT response to questions about Tesla stock dataset and time-series analysis \[Large language model\]. https://chat.openai.com/
